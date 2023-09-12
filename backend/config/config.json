@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "1234qwer",
+    "database": "Task_Manager",
+    "host": "127.0.0.1",
+    "dialect": "postgresql",
+    "seederStorage": "sequelize",
+    "seederStorageTableName": "sequelize_data",
+    "seederFiles": ["./seeders/demo-users.js"]
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
